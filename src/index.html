@@ -10,11 +10,11 @@
     <link href="output.css" rel="stylesheet" />
   </head>
   <body class="font-['Inter']">
-    <header>
+    <header class="absolute w-full top-0 left-0">
 
       <nav>
         <div
-          class="container mx-auto flex justify-between items-center  bg-slate-500 mt-[57px]"
+          class="container mx-auto flex justify-between items-center "
         >
           <div class="">
             <img src="./images/logo.png" alt="Logo" />
@@ -32,15 +32,28 @@
     </header>
 
     <main>
-      <div id="banner">
-        <div class="container mx-auto  bg-slate-700">
+      <div id="banner" class="pt-[44px] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+        <div class="container mx-auto flex justify-between items-center ">
           <div class="leftpart w-[520px]">
             <h1 class="font-black text-[78px] w-[520px] text-white leading-[120%]">Get body in <span class="font-['Miama'] font-normal" >shape</span> & stay healthy</h1>
             <p class="my-[28px] leading-[24px] tracking-[0.5px] text-[rgba(255,255,255,.5)] font-normal text-[16px]">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+            <div class="button">
+              <a class="px-[46.5px] py-[16px] rounded-[42px] text-[#ffffff] text-[18px] font-semibold leading-[22px] border-[1px] border-[#ffffff] duration-[.3s] hover:bg-[#E6533C] hover:border-none" href="#">Join Club Now!</a>
+              <a class="px-[46.5px] py-[16px] rounded-[42px] text-[#ffffff] text-[18px] font-semibold leading-[22px] border-[1px] border-[#ffffff] duration-[.3s] hover:bg-[#E6533C] hover:border-none" href="#">Download App</a>
+            </div>
           </div>
   
-          <div class="rightpart">
-  
+          <div class="rightpart relative">
+            <img src="./images/banner.png" alt="Banner Image">
+            <div class="absolute right-[-74px] top-[125px] card px-[21px] py-[16px] border-[rgba(255,255,255,.1)]  border-[1px] rounded-[12px]   w-[193px] bg-[rgba(255,255,255,.1)] backdrop-blur-[10px]">
+              <h2 class="text-[40px] font-black leading-[40px] tracking-[1px] text-[#ffffff]">500+</h2>
+              <p class="text-[13px] font-normal leading-[20px] tracking-[1px] text-[rgba(255,255,255,.65)]">Free Workout Videos</p>
+            </div>
+            <div class="absolute left-[-113px] bottom-[63px] card px-[21px] py-[16px] border-[rgba(255,255,255,.1)]  border-[1px] rounded-[12px]   w-[193px] bg-[rgba(255,255,255,.1)] backdrop-blur-[10px]">
+              <h2 class="text-[24px] font-black leading-[40px] tracking-[0.3px] text-[#FAFAF9]">350+</h2>
+              <p class="text-[16px] font-normal leading-[20px] tracking-[0.5px] text-[rgba(255,255,255,.65)]">Video tutorial</p>
+            </div>
+            
           </div>
         </div>
         
